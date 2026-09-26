@@ -265,3 +265,34 @@ footer {
   font-size: var(--small-font);
   padding: 1em;
 }
+.quick-lookup {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.quick-lookup h2 {
+  margin-bottom: 1rem;
+}
+
+.quick-lookup-controls {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#quickLookup {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#clearLookup {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+}
